@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.izquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.todo{
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+}
+
+.grupo-campos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .todo{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+}
+
+.purple-btn{
+background-color: #a020f0;
+border: solid 1px #a020f0;
+}
+
+.purple-btn:hover {
+background-color: #f09220;
+border: solid 1px #f09220;
+color: #d8f020
+}
+
+.btn-borrar {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.btn-borrar:hover{
+  color:red;
+}
